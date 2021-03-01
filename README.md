@@ -86,8 +86,11 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
     `, SpriteKind.Player))
 myTurtle.moveDirection(TurtleDirection.Backward, 50)
 ```
-
 ## Step 6
+Hopefully you noticed the **Turtle** moved like the image below.
+![Turtle move forward](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-moving_and_turning/raw/main/assets/move_backwards_screenshot.png)
+
+## Step 7
 Besides forwards and backwards, the **Turtle** can also turn. You use the ⇢``myTurtle turn right by 90°``⇠ block to turn the **Turtle**. Try making the **Turtle**:
 - move forward 30 steps
 - turn right 90°
@@ -116,11 +119,11 @@ myTurtle.turnDirectionByDegrees(TurtleTurnDirection.Right, 90)
 myTurtle.moveDirection(TurtleDirection.Forward, 30)
 ```
 
-## Step 7
+## Step 8
 Hopefully you noticed the **Turtle** moved like the image below.
 ![Turtle move forward](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-moving_and_turning/raw/main/assets/move_and_turn_screenshot.png)
 
-## Step 8
+## Step 9
 Done.
 
 You now know how to make the **Turtle** move and turn.
