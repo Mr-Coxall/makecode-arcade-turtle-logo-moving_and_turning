@@ -27,7 +27,7 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
 Once you can make the **Turtle** show up and talking, the next step is to make it move.
 
 ## Step 2
-Into the provided code below, drag out the ⇢``myTurtle move forward 25 steps``⇠ and then see what happens to your **Turtle**.
+Into the provided code below, drag out the ⇢``myTurtle move forward 25 steps``⇠ block and then see what happens to your **Turtle**.
 ```blocks
 let myTurtle = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -83,7 +83,7 @@ myTurtle.moveDirection(TurtleDirection.Backward, 50)
 ```
 
 ## Step 6
-Besides forwards and backwards, the **Turtle** can also turn. You use the ⇢``myTurtle turn right by 90°``⇠ to turn the **Turtle**. Try making the **Turtle**:
+Besides forwards and backwards, the **Turtle** can also turn. You use the ⇢``myTurtle turn right by 90°``⇠ block to turn the **Turtle**. Try making the **Turtle**:
 - move forward 30 steps
 - turn right 90°
 - move forward 30 more steps
